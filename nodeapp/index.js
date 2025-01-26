@@ -2,14 +2,14 @@ var express = require("express");
 var app = express();
 
 app.get("/", function (req, res) {
-  res.send('{ "response": "Hello, Welcome to Valaxy" }');
+  res.send('{ Hello, Welcome }');
 });
 
 app.get("/will", function (req, res) {
-  res.send('{ "response": "Hello World" }');
+  res.send('{ Hello How are you }');
 });
 app.get("/ready", function (req, res) {
-  res.send('{ "response": " Great!, It works!" }');
+  res.send('{  Great!, It works! }');
 });
 
 //listen to port 3000 by default
